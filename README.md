@@ -1,5 +1,22 @@
 # Dicoding Collection Dasboard - Bike Sharing 🚲
-### You can try [here](https://weather-impact-analysis-on-bicycle-usage.streamlit.app/)
+
+<table align="center">
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github.com/jethrosta/Weather-Impact-Analysis-on-Bicycle-Usage/blob/main/images/Screenshot%202025-06-29%20at%2021.46.42.png" width="600">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/jethrosta/Weather-Impact-Analysis-on-Bicycle-Usage/blob/main/images/Screenshot%202025-06-29%20at%2021.46.51.png" width="290">
+    </td>
+    <td align="center">
+      <img src="https://github.com/jethrosta/Weather-Impact-Analysis-on-Bicycle-Usage/blob/main/images/Screenshot%202025-06-29%20at%2021.47.04.png" width="290">
+    </td>
+  </tr>
+</table>
+
+### ✨ [You can try here](https://weather-impact-analysis-on-bicycle-usage.streamlit.app/) ✨
 ---
 
 This data analysis project explores the relationship between weather conditions and bicycle usage, based on a publicly available dataset provided by Dicoding. The dataset contains daily records of bike rentals along with corresponding weather variables, including temperature, humidity, wind speed, and weather conditions.
@@ -91,13 +108,16 @@ Both `hour.csv` and `day.csv` have the following fields, except hr which is not 
 ---
 
 ## 📊 Business Question 1: How does weather affect the number of bike rentals?
-✅ SMART Breakdown
-S (Specific): Analyze the impact of weather factors (rain, temperature, humidity, wind speed) on the number of bike rentals.
-M (Measurable): Measure the correlation and trend patterns of weather variables against the rental count.
-A (Achievable): Can be answered through regression analysis and visual data exploration.
-R (Relevant): Useful for operators to plan fleet capacity based on weather forecasts.
-T (Time-bound): Can be analyzed daily or monthly over the past year.
-<br>
+### ✅ SMART Breakdown 
+- S (Specific): Analyze the impact of weather factors (rain, temperature, humidity, wind speed) on the number of bike rentals.
+- M (Measurable): Measure the correlation and trend patterns of weather variables against the rental count.
+- A (Achievable): Can be answered through regression analysis and visual data exploration.
+- R (Relevant): Useful for operators to plan fleet capacity based on weather forecasts.
+- T (Time-bound): Can be analyzed daily or monthly over the past year. 
+
+<img src="https://github.com/jethrosta/Weather-Impact-Analysis-on-Bicycle-Usage/blob/main/images/JumlahPenggunaSepedaBerdasarkanMusim.png">
+
+### 📊 Answer & Insight
 Yes, weather has a significant impact on the number of bike rentals per day and per hour. This is evidenced by data visualizations showing a noticeable increase in bike usage during:
 - Clear weather conditions
 - Peak seasons, particularly fall and summer
@@ -106,13 +126,20 @@ This usage pattern indicates that the majority of bike sharing users are working
 
 ---
 ## 🚴‍♀️ Business Question 2: Is there a difference in rental behavior between registered and casual users?
-✅ SMART Breakdown
-S (Specific): Compare rental patterns between registered and casual users.
-M (Measurable): Analyze rental counts by user type.
-A (Achievable): Feasible through exploration of the casual and registered variables.
-R (Relevant): Useful for shaping marketing and user retention strategies.
-T (Time-bound): Can be observed on a weekly or monthly basis.
-📊 Answer & Insight
+### ✅ SMART Breakdown <br>
+- S (Specific): Compare rental patterns between registered and casual users.
+- M (Measurable): Analyze rental counts by user type.
+- A (Achievable): Feasible through exploration of the casual and registered variables.
+- R (Relevant): Useful for shaping marketing and user retention strategies.
+- T (Time-bound): Can be observed on a weekly or monthly basis.
+
+<div align="center">
+<img src="https://github.com/jethrosta/Weather-Impact-Analysis-on-Bicycle-Usage/blob/main/images/PerbandinganCasual.png">
+<img src="https://github.com/jethrosta/Weather-Impact-Analysis-on-Bicycle-Usage/blob/main/images/PerbandinganPenggunaPerMusim.png">
+<img src="https://github.com/jethrosta/Weather-Impact-Analysis-on-Bicycle-Usage/blob/main/images/MinimumPenggunaSelama2hari.png">
+</div>
+
+### 📊 Answer & Insight
 Analysis of the data and visualizations reveals clear behavioral differences:
 - Registered users:
   - Rent bikes more frequently, especially during workdays.
@@ -123,8 +150,11 @@ Analysis of the data and visualizations reveals clear behavioral differences:
   - Tend to ride more during weekends, especially on Sundays.
   - Less influenced by work hours and more aligned with leisure behavior.
  
+<img src="https://github.com/jethrosta/Weather-Impact-Analysis-on-Bicycle-Usage/blob/main/images/RFMAnalysis.png">
+ 
 ## Conclusion
-✅ Yes, weather significantly affects bike rental volume. The better the weather (clear skies, warm temperatures), the higher the number of rentals.
-✅ Registered users ride more frequently than casual users—especially on workdays and during commute hours—whereas casual users are more active on weekends.
-✅ Seasons with good visibility and comfortable temperatures (e.g., fall and summer) see the highest usage across both user types.
+
+✅ Yes, weather significantly affects bike rental volume. The better the weather (clear skies, warm temperatures), the higher the number of rentals.<br>
+✅ Registered users ride more frequently than casual users—especially on workdays and during commute hours—whereas casual users are more active on weekends. <br>
+✅ Seasons with good visibility and comfortable temperatures (e.g., fall and summer) see the highest usage across both user types. <br>
 
