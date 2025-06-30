@@ -16,7 +16,7 @@ hour_df["dteday"] = pd.to_datetime(hour_df["dteday"])
 hour_df["hour"] = hour_df["hr"].astype(int)
 
 # Sidebar filter dengan gambar LinkedIn
-st.sidebar.image("https://media.licdn.com/dms/image/v2/D5603AQHiHaPeTHXFFw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725678161780?e=1746057600&v=beta&t=ca-lAeFCENwaJ7gPADDvr73qe3kry3IX-18eddSowsc")
+st.sidebar.image("https://media.licdn.com/dms/image/v2/D5635AQGksihAz-L76g/profile-framedphoto-shrink_400_400/B56ZWPq1IsGQAc-/0/1741872124829?e=1751857200&v=beta&t=FtFkqKKl778BrKRSeqMiw7-ylZk_kSrbEKtdCrMq-JA")
 
 min_date = day_df["dteday"].min()
 max_date = day_df["dteday"].max()
